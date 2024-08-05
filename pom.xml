@@ -15,6 +15,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>redis-example-practice</module>
+        <module>itextpdf-pdf</module>
     </modules>
 
     <properties>
