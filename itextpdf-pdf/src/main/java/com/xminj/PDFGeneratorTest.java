@@ -10,6 +10,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
+/**
+ * https://printcss.live/ ：在线预览pdf打印效果
+ */
 public class PDFGeneratorTest {
     public static void main(String[] args) {
         ClassLoader classLoader = PDFGeneratorTest.class.getClassLoader();
@@ -47,6 +50,9 @@ public class PDFGeneratorTest {
         return BeanUtil.beanToMap(form);
     }
 
+    /**
+     * 图片位置需要调整好，不然排版会乱
+     */
     private static List<String> getStrings() {
         List<String> visitReasonList = new ArrayList<>();
         visitReasonList.add("问: getItemName");
